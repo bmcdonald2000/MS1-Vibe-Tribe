@@ -106,7 +106,6 @@ a.links:hover {
   display: grid;
   grid-template-columns: 1fr 1fr; /* equal columns */
   gap: 15px;
-  align-items: start;
   max-width: 300px;   /* controls how wide the whole thing is */
   margin: 0 auto;     /* centers it */
   padding: 0 20px; /* stops it kissing the edges on smaller screens */
@@ -117,6 +116,7 @@ a.links:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
 }
 /* The flip card container for Hip-Hop*/
 .Hip-hop{
