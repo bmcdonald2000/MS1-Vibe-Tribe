@@ -109,7 +109,7 @@ a.links:hover {
   max-width: 300px;   /* controls how wide the whole thing is */
   margin: 0 auto;     /* centers it */
   padding: 0 20px; /* stops it kissing the edges on smaller screens */
-  width:100%; 
+  justify-content: center;
 }
 
 .column {
