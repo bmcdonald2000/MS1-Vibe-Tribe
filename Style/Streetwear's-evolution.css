@@ -101,13 +101,18 @@ a.links:hover {
   z-index: -7;
   display: none;
 }
-/* Styles the right column of the flip cards*/
-.right{
-  position: relative;
-  top: 10vh;
-  float: right;
-  margin-right: 20vw;
-  height: 500px;
+/* Styles the right & left column of the flip cards*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* equal columns */
+  gap: 20px;
+  align-items: start; /* THIS is key */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 /* The flip card container for Hip-Hop*/
 .Hip-hop{
@@ -237,13 +242,7 @@ a.links:hover {
   padding: 30px;
 }
 /* Styles the left column of cards */
-.left{
-  float: left;
-  margin-left: 25vw;
-  position: relative;
-  top: 7vh;
-  height: 500px;
-}
+
 /* The flip card container for basketball*/
 .basketball{
   background-color: transparent;
