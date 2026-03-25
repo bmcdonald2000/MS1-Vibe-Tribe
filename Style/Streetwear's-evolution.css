@@ -109,7 +109,8 @@ a.links:hover {
   align-items: start;
   max-width: 900px;   /* controls how wide the whole thing is */
   margin: 0 auto;     /* centers it */
-  padding: 0 20px;    /* stops it kissing the edges on smaller screens */
+  padding: 0 20px; /* stops it kissing the edges on smaller screens */
+  width: fit-content;
 }
 
 .column {
