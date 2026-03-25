@@ -105,8 +105,11 @@ a.links:hover {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* equal columns */
-  gap: 20px;
-  align-items: start; /* THIS is key */
+  gap: 15px;
+  align-items: start;
+  max-width: 900px;   /* controls how wide the whole thing is */
+  margin: 0 auto;     /* centers it */
+  padding: 0 20px;    /* stops it kissing the edges on smaller screens */
 }
 
 .column {
