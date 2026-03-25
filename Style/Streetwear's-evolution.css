@@ -104,7 +104,7 @@ a.links:hover {
 /* Styles the right & left column of the flip cards*/
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* equal columns */
+  grid-template-columns: 320px 320px /* equal columns */
   gap: 15px;
   align-items: start;
   max-width: 900px;   /* controls how wide the whole thing is */
